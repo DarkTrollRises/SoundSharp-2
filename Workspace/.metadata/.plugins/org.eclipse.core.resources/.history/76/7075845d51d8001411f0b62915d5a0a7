@@ -1,0 +1,24 @@
+import java.util.Scanner;
+
+import beren.step.Step;
+import beren.step.Time;
+
+public class Tester
+{
+	public static void main(String[] args)
+	{
+		Scanner scanner = new Scanner(System.in);
+		Step step1 = new Step(1, "Schil de aardappelen en de tomaten");
+		step1.setDuration(new Time(3,20));
+
+		System.out.println(step1.displayStep());
+		System.out.println("De duur van deze stap in seconden is: " + step1.getDurationInSeconds());
+		System.out.println("Deze stap zit op volgorde plaats: " + step1.getOrder());
+		System.out.println("Druk op een toets om verder te gaan...");
+		while(scanner.hasNext())
+		{
+			System.out.println("Test");
+		}
+		scanner.close();
+	}
+}

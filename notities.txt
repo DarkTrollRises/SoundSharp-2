@@ -1,0 +1,10 @@
+menu item alle gerechten
+gerechten met nummers
+nummer kiezen == alle stappen
+nummer met nummer erachter == vanaf 2e nummer
+
+menu item gerecht toevoegen
+beschrijving -> tijd
+vraag of nieuwe stap
+ja == herhaal
+nee == voeg toe met wat je hebt
